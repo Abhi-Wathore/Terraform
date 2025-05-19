@@ -56,6 +56,5 @@ resource "aws_route_table" "myroute" {
 }
 
 data "aws_security_group" "mysg" {
-  vpc_id = aws_vpc.mainvpc.id
-   
+  vpc_id = aws_vpc.mainvpc.id  
 }
